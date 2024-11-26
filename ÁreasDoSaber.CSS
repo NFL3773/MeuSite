@@ -1,0 +1,49 @@
+/* Reset básico para que o cabeçalho encoste nos limites da página */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização do cabeçalho */
+nav {
+    display: flex;
+    text-align: center; 
+    justify-content: center; /* Alinha o título no centro */
+    align-items: center;
+    background-color: rgb(0, 202, 202);
+    color: white;
+    padding: 5px;
+    position: relative; /* Permite posicionamento absoluto do botão */
+}
+
+nav .retorno {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 10px; /* Ajuste a distância do botão da borda esquerda */
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+/* Estilização da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+    border: 1px solid #000;
+}
+
+th:hover {
+    background-color: #00a2ff;
+}
+
+/* Cor de destaque para os elementos selecionados */
+.highlight {
+    background-color: #00a2ff;
+}

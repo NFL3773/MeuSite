@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: rgb(0, 140, 255);
+    padding: 10px;
+}
+
+/* Barra de Navegação */
+nav {
+    display: flex; /* Define que os itens dentro do <nav> ficam alinhados em linha */
+    gap: 10px; /* Separa os botões */
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+img {
+    max-width: 100%;
+    padding-top: 10px;
+}
+
+/* Botões */
+.botao {
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #bbb;
+}
+
+/* Seção "hero" */
+.hero{
+    height: 100vh; /* Define a altura da seção para preencher toda a altura da viewport, criando um efeito de "hero" (herói) onde o conteúdo é exibido em destaque. */
+    display: flex;
+    align-items: center; /* Alinha o conteúdo verticalmente ao centro */
+    justify-content: center; /* Alinha o conteúdo horizontalmente ao centro */
+    text-align: center;
+    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%); /* Define um gradiente linear com um ângulo de 135 graus, o que significa que o gradiente vai em diagonal. A cor do 0% é onde começa e a cor do 100% é onde termina*/
+    color: white;
+    padding: 2rem; /* Adiciona um espaçamento interno em volta do conteúdo para evitar que ele fique muito próximo das bordas. */
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    animation: fadeIn 1s ease-in; /* Aplica uma animação chamada fadeIn que ocorre durante 1 segundo com uma suavização no início (ease-in), criando um efeito de entrada gradual. */
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 600px; /* Limita a largura máxima do parágrafo a 600 pixels, evitando que o texto se espalhe demais em telas maiores, o que facilita a leitura. */
+    margin: 0 auto; /* Centraliza o parágrafo dentro da seção, aplicando margens automáticas nas laterais. */
+}
