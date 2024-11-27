@@ -42,11 +42,3 @@
             padding-right: 5px;
             padding-top: 5px;
         }
-
-        /* Remove o controle de volume e o botão de volume */
-        video::-webkit-media-controls-volume-slider {
-            display: none;
-        }
-        video::-webkit-media-controls-mute-button {
-            display: none;
-        }
