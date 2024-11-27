@@ -1,0 +1,52 @@
+    /*  Custom CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #212529;
+        }
+        header {
+            display: flex;
+            background-color: #007bff;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        header .botao {
+            background-color: #ffc925;
+            border: none;
+            color: black;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            position: absolute;
+            left: 10px;
+        }
+        .botao:hover {
+            background-color: #e0a800;
+        }
+        h1 {
+            margin: 0.5rem 0;
+        }
+        section {
+            margin-bottom: 1.5rem;
+        }
+        img {
+            padding-right: 5px;
+            padding-top: 5px;
+        }
+        video {
+            padding-right: 5px;
+            padding-top: 5px;
+        }
+
+        /* Remove o controle de volume e o botão de volume */
+        video::-webkit-media-controls-volume-slider {
+            display: none;
+        }
+        video::-webkit-media-controls-mute-button {
+            display: none;
+        }
